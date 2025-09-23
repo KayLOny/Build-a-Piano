@@ -1,0 +1,32 @@
+/* CSS reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    background-color: lightpink;
+    margin: 0;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the piano to use flex box */
+.piano {
+  display: flex;
+}
+
+.key {
+  /* blank for now */
+}
+
+.white {
+  width: 100px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid #333;
+}
